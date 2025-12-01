@@ -71,3 +71,4 @@ namespace Demo.DataAccess.Data.Migrations
         }
     }
 }
+ 
