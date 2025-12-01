@@ -1,4 +1,4 @@
-﻿using Demo.dal.Data.Context;
+﻿using DemoSession3.DataAccess.Data.Contexts;
 using DemoSession3.DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -44,7 +44,6 @@ namespace DemoSession3.DataAccess.Repositories
         //Insert
         public int Add(Department department)
         {
-
             _dbContext.Departments.Add(department);
             return _dbContext.SaveChanges();
         }
