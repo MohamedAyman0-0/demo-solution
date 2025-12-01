@@ -1,12 +1,11 @@
-using Demo.dal.Data.Context;
-using DemoSession3.BuisnessLogic.Services;
-
+using DemoSession3.DataAccess.Data.Contexts;
 using DemoSession3.DataAccess.Repositories;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using DemoSession3.BuisnessLogic.Services;
 
 namespace Session3Demo.Presentation
 
@@ -54,7 +53,7 @@ namespace Session3Demo.Presentation
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
-            app.Run();  
+            app.Run();
         }
     }
 }
