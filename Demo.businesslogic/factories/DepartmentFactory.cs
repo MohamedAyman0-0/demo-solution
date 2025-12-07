@@ -19,10 +19,10 @@ namespace DemoSession3.BuisnessLogic.Factories
                 Id = department.Id,
                 Name = department.Name,
                 Code = department.Code,
-                Description = department.Description = null!,
+                Description = department.Description,
                 CreatedBy = department.createdBy,
                 LastModifiedBy = department.LastModifiedBy,
-                // DateofCreation = DateOnly.FromDateTime(department.CreatedOn ?? DateTime.Now),
+               // DateofCreation = DateOnly.FromDateTime(department.CreatedOn ?? DateTime.Now),
                 IsDeleted = department.IsDeleted
 
             };
@@ -37,7 +37,7 @@ namespace DemoSession3.BuisnessLogic.Factories
                 Id = department.Id,
                 Name = department.Name,
                 Code = department.Code,
-                Description = department.Description = null!,
+                Description = department.Description,
                // DateofCreation = DateOnly.FromDateTime(department.CreatedOn ?? DateTime.Now)
             };
         }

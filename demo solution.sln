@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36717.8
+VisualStudioVersion = 17.14.36717.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.presntation", "demo.presntation\demo.presntation.csproj", "{728EA93A-6DBB-44B6-B25F-7289236C54F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.businesslogic", "Demo.businesslogic\Demo.businesslogic.csproj", "{E3903AB6-A6C9-4E75-8F6D-B3078556E157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess", "Demo.dal\Demo.DataAccess.csproj", "{887FB4D8-F0A5-4F4C-B2E2-1BA466F2CF9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.dal", "Demo.dal\Demo.dal.csproj", "{887FB4D8-F0A5-4F4C-B2E2-1BA466F2CF9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
