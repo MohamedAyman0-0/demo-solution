@@ -1,10 +1,10 @@
 ﻿
-using DemoSession3.BuisnessLogic.DataTransferObjects.Employees;
-using DemoSession3.BuisnessLogic.Services.Interfaces;
-using DemoSession3.DataAccess.Models.Employees;
+using DemoSession.BuisnessLogic.DataTransferObjects.Employees;
+using DemoSession.BuisnessLogic.Services.Interfaces;
+using DemoSession.DataAccess.Models.Employees;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Session3Demo.Presentation.ViewModels.Employees;
+using DemoSession.Presentation.ViewModels.Employees;
 using EmployeeType = DemoSession3.DataAccess.Models.Employees.EmployeeType;
 
 namespace Session3Demo.Presentation.Controllers

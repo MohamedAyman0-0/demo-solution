@@ -1,33 +1,32 @@
-﻿using DemoSession3.DataAccess.Models;
+﻿using Demo.dal.Data.configurations;
+using Demo.dal.module;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DemoSession3.DataAccess.Data.Contexts
+namespace Demo.dal.Data.Context
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext :DbContext
     {
-
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        //public ApplicationDbContext() : base()
+        //{
+            
+        //}
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> Options   ): base(Options) 
+        
         {
-
         }
-
-        public DbSet<Department> Departments { get; set; }
-
+       
+        public DbSet<DepartmentDTO> Departments { get; set; }
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
-        //    optionsBuilder.UseSqlServer("Connection string");
+        //    optionsBuilder.UseSqlServer("ConnectionString");
+        //    //base.OnConfiguring(optionsBuilder);
         //}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //  base.OnModelCreating(modelBuilder);
-            //   modelBuilder.ApplyConfiguration(new DepartmentConfigurations());
+            modelBuilder.ApplyConfiguration(new DepartmentConfigurations());
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
         }
     }
 }

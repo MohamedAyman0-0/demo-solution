@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.presntation", "demo.pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.businesslogic", "Demo.businesslogic\Demo.businesslogic.csproj", "{E3903AB6-A6C9-4E75-8F6D-B3078556E157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess", "Demo.dal\Demo.DataAccess.csproj", "{887FB4D8-F0A5-4F4C-B2E2-1BA466F2CF9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess", "Demo.DataAccess\Demo.DataAccess.csproj", "{3AEE07EE-8549-407D-B8DF-85122FAD95E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{E3903AB6-A6C9-4E75-8F6D-B3078556E157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3903AB6-A6C9-4E75-8F6D-B3078556E157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3903AB6-A6C9-4E75-8F6D-B3078556E157}.Release|Any CPU.Build.0 = Release|Any CPU
-		{887FB4D8-F0A5-4F4C-B2E2-1BA466F2CF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{887FB4D8-F0A5-4F4C-B2E2-1BA466F2CF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{887FB4D8-F0A5-4F4C-B2E2-1BA466F2CF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{887FB4D8-F0A5-4F4C-B2E2-1BA466F2CF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEE07EE-8549-407D-B8DF-85122FAD95E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEE07EE-8549-407D-B8DF-85122FAD95E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEE07EE-8549-407D-B8DF-85122FAD95E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEE07EE-8549-407D-B8DF-85122FAD95E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,7 +11,7 @@ namespace Demo.dal.module
             public int Id { get; set; } //pk
         
 
-       public int createdBy { get; set; }    
+        public int createdBy { get; set; }    
         public  DateTime CreatedOn { get; set; } 
         public int LastModifyBy { get; set; }   
         public DateTime LastModifiedOn { get; set; }
